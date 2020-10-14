@@ -5,7 +5,11 @@ import android.util.DisplayMetrics;
 import android.view.Display;
 import android.view.WindowManager;
 
+/**
+ * 显示单位工具类
+ */
 public class DisplayUtils {
+
     /**
      * 将px值转换为dp值
      */

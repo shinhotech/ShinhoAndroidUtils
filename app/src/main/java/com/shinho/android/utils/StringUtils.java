@@ -14,6 +14,9 @@ import java.util.Calendar;
 import java.util.HashSet;
 import java.util.List;
 
+/**
+ * 字符串工具类
+ */
 public class StringUtils {
 
     /**

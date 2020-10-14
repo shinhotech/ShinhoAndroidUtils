@@ -1,8 +1,4 @@
-package com.archex.core.utils;
-
-/**
- * Created by Li on 2017/3/23.
- */
+package com.shinho.android.utils;
 
 import android.app.Activity;
 import android.os.Build;

@@ -29,7 +29,7 @@ import java.util.List;
 
 
 /**
- * Created by chunyangli on 2018/2/27.
+ * 文件工具类
  */
 public class FileUtils {
     private static final String MIME_TYPE_APK = "application/vnd.android.package-archive";

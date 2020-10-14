@@ -25,6 +25,9 @@ import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
 
+/**
+ * 设备工具类
+ */
 public class DeviceUtils {
 
     public static class ScreenState {
