@@ -26,6 +26,13 @@ HumpToUnderlineLower ：驼峰命名转为下划线命名(小写) ShinhoHome -> 
 isPhone ：是否为手机号，简单判断：1开始11位。
 ```
 
+* ### ClipboardUtils
+```
+copy2clipboard ：复制text到剪贴板
+getFromClipboard ：获取系统剪贴板
+getClipboardManager ：获取系统剪贴板管理对象
+```
+
 * ### FileUtils
 ```
 getAssetsFileString ：读取asset文件内容
@@ -49,8 +56,14 @@ stitchBitmapVertical ：将多张图竖向拼接为一张Bitmap
 getImageDir ：获取存放图片的文件夹
 ```
 
-* ### MainActivity
+* ### CollectionUtils
 ```
+contain ：判断集合是否是不为null且含有某个元素
+isEmpty ：集合是否是null或者不含有元素
+isEmpty ：Map是否是null或者不含有元素
+filterEmpty ：移除list里的null元素
+getKeyByValue ：通过值找到map里的键
+removeRange ：移除list里某个索引范围的元素
 ```
 
 * ### NetUtils
@@ -59,6 +72,12 @@ isConnected ：判断网络是否连接
 getNetworkState ：获取当前网络连接类型
 isWifi ：判断是否是wifi连接
 openSetting ：打开网络设置界面
+```
+
+* ### IdProducer
+```
+createInt ：创建int类唯一id
+create ：创建String类唯一id
 ```
 
 * ### DisplayUtils
