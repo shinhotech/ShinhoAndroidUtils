@@ -9,10 +9,16 @@ import java.util.concurrent.atomic.AtomicInteger;
 public class IdProducer {
     private static AtomicInteger sAtomicInteger = new AtomicInteger();
 
+    /**
+     * 创建int类唯一id
+     */
     public static int createInt() {
         return sAtomicInteger.getAndIncrement();
     }
 
+    /**
+     * 创建String类唯一id
+     */
     public static String create() {
         return String.valueOf(sAtomicInteger.getAndIncrement());
     }

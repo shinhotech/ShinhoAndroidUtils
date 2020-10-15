@@ -4,10 +4,13 @@ import android.content.ClipData;
 import android.content.ClipboardManager;
 import android.content.Context;
 
+/**
+ * 剪贴板工具类
+ */
 public class ClipboardUtils {
 
     /**
-     * 复制text到剪切板
+     * 复制text到剪贴板
      */
     public static void copy2clipboard(Context context, String text) {
         ClipboardManager cm = (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);
@@ -32,7 +35,7 @@ public class ClipboardUtils {
     }
 
     /**
-     * 获取系统剪切板管理对象
+     * 获取系统剪贴板管理对象
      */
     public static ClipboardManager getClipboardManager(Context context) {
         return (ClipboardManager) context.getSystemService(Context.CLIPBOARD_SERVICE);

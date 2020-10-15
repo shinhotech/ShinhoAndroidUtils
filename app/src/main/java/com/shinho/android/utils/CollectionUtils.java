@@ -6,6 +6,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
 
+/**
+ * 集合工具类
+ */
 public class CollectionUtils {
 
     /**
